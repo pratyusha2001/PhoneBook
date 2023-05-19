@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cors())
 
 const PORT=8080
-const uri = 'mongodb+srv://pratyusha:Pratyusha%4001@cluster0.65skl.mongodb.net/test'
+const uri = ''
 
 app.listen(PORT, ()=>{
     console.log(`Server is running on: ${PORT} `)
