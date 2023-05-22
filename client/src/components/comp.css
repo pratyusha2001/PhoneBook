@@ -1,0 +1,115 @@
+*{ 
+    /* border: 2px solid red; */
+  margin: 0;
+  
+}
+.header{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+   /*  border: 2px solid red; */
+    width: 80%;
+    border-bottom: 2px solid rgb(248, 164, 19);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: rgb(248, 164, 19);
+}
+.card {
+    text-align: center;
+    transition: 0.3s;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    border-color: transparent;
+    margin-bottom: 55px;
+  }
+  label{
+    margin: 30px;
+  }
+  input{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 15px;
+    border: transparent;
+    border-bottom:2px solid black;
+  }
+  input::placeholder{
+    text-align: left;
+  }
+  input:focus {
+    outline: none;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .add-btn{
+    padding: 10px 25px;
+    margin: auto;
+    border: 2px solid rgb(248, 164, 19);
+    background-color: rgb(248, 164, 19);
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius:15px;
+  }
+  .add-btn:hover{
+    background-color: white;
+    color: rgb(248, 164, 19);
+  }
+  .upd-input{
+    margin-left: 50px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #users td, #users th {
+    border-bottom: 1px solid rgb(248, 164, 19);;
+    padding: 8px;
+    text-align: center !important;
+  }
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(248, 164, 19);
+    color: white;
+  }
+  .upd-btn{
+    padding: 8px 20px;
+    margin: auto;
+    background-color: white;
+    color: rgb(248, 164, 19);
+    border: 2px solid rgb(248, 164, 19);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  .upd-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  @media screen and (max-width: 600px) {
+    .upd-input{
+      margin-right: 140px;
+      margin-top: 15px;
+      width: 50%;
+    }
+    input{
+      width: 50%;
+    }
+  }
